@@ -1,0 +1,55 @@
+/* Footer.css */
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #f87171; /* Tailwind's red-400 */
+  }
+  
+  .footer-container {
+    background-color: #3499a7; /* Tailwind's blue-600 */
+    color: white;
+    width: 100vw;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+  
+  .footer-heading {
+    font-weight: bold;
+  }
+  
+  .footer-nav,
+  .footer-links {
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  .footer-nav a,
+  .footer-links a {
+    margin-right: 0.5rem;
+    transition: color 0.3s;
+    cursor: pointer;
+  }
+  
+  .footer-nav a:hover,
+  .footer-links a:hover {
+    color: #93c5fd; /* Tailwind's blue-300 */
+  }
+  
+  /* For medium screens and above */
+
+    @media (min-width: 768px) {
+      .footer-content {
+        display: flex;
+        justify-content: space-around;
+      }
+  
+    .footer-nav a,
+    .footer-links a {
+      margin-right: 1rem;
+    }
+  }
+  #p{
+    padding-top: 20px;
+  }

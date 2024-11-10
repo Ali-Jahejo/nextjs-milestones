@@ -1,0 +1,54 @@
+/* Header.css */
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+  
+  .header-container {
+    background-color: #3499a7; /* Tailwind's blue-600 */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .header-container h2 {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .header-container h2:hover {
+    color: #93c5fd; /* Tailwind's blue-300 */
+  }
+  
+  .header-container nav {
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  .header-container nav a {
+    margin-right: 0.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .header-container nav a:hover {
+    color: #93c5fd; /* Tailwind's blue-300 */
+  }
+  
+  /* For medium screens and above */
+  @media (min-width: 768px) {
+    .header-container {
+      display: flex;
+      justify-content: space-around;
+      width: 66.666667%;
+    }
+  
+    .header-container nav {
+      margin-top: 0;
+    }
+  }
+  
